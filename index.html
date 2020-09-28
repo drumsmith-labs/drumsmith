@@ -1,57 +1,66 @@
-<!doctype html>
+<!DOCTYPE html>
 
 <html lang="en">
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
 
     <title>Drumsmith</title>
-    <meta name="description" content="Drumsmith">
-    <meta name="author" content="Drumsmith Labs">
-    <link rel="stylesheet" href="normalizer.css">
-    <link rel="stylesheet" href="styles.css">
+    <meta name="description" content="Drumsmith" />
+    <meta name="author" content="Drumsmith Labs" />
+    <link rel="stylesheet" href="normalizer.css" />
+    <link rel="stylesheet" href="styles.css" />
   </head>
 
   <body>
-    <div id='button-container'>
-      <button class='button'>
+    <div id="button-container">
+      <button class="button">
         <div>A</div>
         <div>CLAP</div>
       </button>
-      <button class='button'>
+      <button class="button">
         <div>S</div>
         <div>HIHAT</div>
-      </button> 
-      <button class='button'>
+      </button>
+      <button class="button">
         <div>D</div>
         <div>KICK</div>
       </button>
-      <button class='button'>
+      <button class="button">
         <div>F</div>
         <div>OPENHAT</div>
       </button>
-      <button class='button'>
+      <button class="button">
         <div>G</div>
         <div>BOOM</div>
       </button>
-      <button class='button'>
+      <button class="button">
         <div>H</div>
         <div>RIDE</div>
       </button>
-      <button class='button'>
+      <button class="button">
         <div>J</div>
         <div>SNARE</div>
       </button>
-      <button class='button'>
+      <button class="button">
         <div>K</div>
         <div>TOM</div>
       </button>
-      <button class='button'>
+      <button class="button">
         <div>L</div>
         <div>TINK</div>
       </button>
     </div>
-    <script src="app.js" >
-    </script>
-    <!-- <button class="button disabled" onclick="alert('hey there')">Click Me</button> -->
+
+    <audio data-key="65" src="static/clap.wav"></audio>
+    <audio data-key="83" src="static/hihat.wav"></audio>
+    <audio data-key="68" src="static/kick.wav"></audio>
+    <audio data-key="70" src="static/openhat.wav"></audio>
+    <audio data-key="71" src="static/boom.wav"></audio>
+    <audio data-key="72" src="static/ride.wav"></audio>
+    <audio data-key="74" src="static/snare.wav"></audio>
+    <audio data-key="75" src="static/tom.wav"></audio>
+    <audio data-key="76" src="static/tink.wav"></audio>
+
+    <script src="app.js"></script>
   </body>
 </html>
